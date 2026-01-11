@@ -1,0 +1,29 @@
+:root {
+  /* COLORS */
+  --color-bg: #ffffff;
+  --color-text: #ec4899;
+
+  /* GRADIENT */
+  --gradient-app: linear-gradient(
+    135deg,
+    #6366f1,
+    #8b5cf6,
+    #ec4899
+  );
+
+  /* EFFECTS */
+  --blur-glass: blur(16px);
+}
+
+/* DARK MODE */
+.dark {
+  --color-bg: #020617;
+  --color-text: #f8fafc;
+
+  --gradient-app: linear-gradient(
+    135deg,
+    #020617,
+    #0f172a,
+    #1e293b
+  );
+}
